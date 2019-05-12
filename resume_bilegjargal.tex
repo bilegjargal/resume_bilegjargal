@@ -1,0 +1,160 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://sourabhbajaj.com/}{\Large Bilegjargal Jargalsaikhan "Jargal"}} & Email : \href{mailto:bjargal56@gmail.com}{bjarga56@gmail.com}\\
+   & Mobile : +1-641-451-3892 \\
+   & \href{http://linkedin.com/in/bilegjargal-jargalsaikhan}{http://linkedin.com/in/bilegjargal-jargalsaikhan}
+\end{tabular*}
+
+\section{Summary}
+{
+  Accomplished and technically knowledgeable software developer with 3 years of hands-on experience in software
+  and web development. Implemented several projects through entire development life-cycle for front end and back end
+  modules using Angular, ReactJS and NodeJS technologies. Creative and problem solver, eager to learn new things such as front-end development
+}
+
+%
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Programming}{: Javascript(ES6), HTML, CSS, SASS, SQL, MongoDB, Git, NPM, YARN, RESTful API}
+     \hfill
+   }
+   \item {
+     \textbf{Frameworks}{: ReactJS, Angular, NodeJS, ExpressJS, Agile/SCRUM, Selenium, Jest}
+   }
+ \resumeSubHeadingListEnd
+
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {DIGITALWORKS COMPANY}{Ulaanbaatar, Mongolia}
+      {Software Developer}{Mar 2018 - Aug 2018}
+      \resumeItemListStart
+        \item{
+          Was working on in business tool for contract management as a software developer. Contributed to the development process, including sprint planning, coding, unit testing, code review, and delivery.
+        }
+        \item{
+          Created the feature that generates the contract payment schedule by weekly, monthly or custom time interval and creates an invoice automatically.
+        }
+        \item{
+          Implemented the new function to add dynamic fields to the document. Resulting in the implementation time for new customer reduced by 30 percent.
+        }
+        \item{
+          Created a new feature that notes important milestones and generates reports related to payment schedules. Never incur losses due to human mistakes
+        }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {ITZONE COMPANY}{Ulaanbaatar, Mongolia}
+      {Software Developer}{Sep 2015 - Mar 2018}
+      \resumeItemListStart
+      \item{
+        Contributed to ERP system development specially worked in the Supply Chain Management System and Customer Relationship Management System team.
+      }
+      \item{
+        Created a back-end logic to compute all types of transaction over the Supply Chain Management system, Resulting improved business process of inventory and finance department workflow by 20 percent. And eradicates faulty transaction occurrence.
+      }
+      \item{
+        In order to speed up the dynamic report load time, modified SQL queries. As a result dynamic report generating time fastened up to 8 times.
+      }
+      \item{
+        Worked on client's site and solved many minor and major problems as a fast phased development. Awarded Customer happiness award of the first quarter of the year.
+      }
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Maharishi University of Management}{Fairfield, IOWA}
+      {Master of Science in Computer Science;}{Aug. 2018 -- In progress}
+    \resumeSubheading
+      {Mongolian University of Management}{Ulaanbaatar, Mongolia}
+      {Bachelor of Science in Computer Science;}{Aug. 2012 -- Jun. 2016}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
